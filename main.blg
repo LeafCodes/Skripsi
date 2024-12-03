@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: contents/chapter-1/chapter-1.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: contents/chapter-2/chapter-2.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: contents/chapter-3/chapter-3.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: contents/chapter-4/chapter-4.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: contents/chapter-5/chapter-5.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: contents/chapter-6/chapter-6.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in Stranaska
+
+Done.
+You've used 14 entries,
+            4087 wiz_defined-function locations,
+            922 strings with 10172 characters,
+and the built_in function-call counts, 9062 in all, are:
+= -- 703
+> -- 186
+< -- 53
++ -- 100
+- -- 36
+* -- 422
+:= -- 1360
+add.period$ -- 28
+call.type$ -- 14
+change.case$ -- 10
+chr.to.int$ -- 132
+cite$ -- 15
+duplicate$ -- 671
+empty$ -- 837
+format.name$ -- 44
+if$ -- 2139
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 115
+newline$ -- 73
+num.names$ -- 14
+pop$ -- 312
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 706
+stack$ -- 0
+substring$ -- 347
+swap$ -- 500
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 14
+warning$ -- 1
+while$ -- 32
+width$ -- 16
+write$ -- 151
+(There was 1 warning)

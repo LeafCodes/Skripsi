@@ -1,0 +1,63 @@
+\chapter{Pendahuluan}
+
+\section{Latar Belakang}
+
+Belakangan ini penggunaan kecerdasan artifisial (KA) semakin berkembang dan menjadi perhatian global. Data dari laporan terbaru menunjukkan bahwa investasi global dalam teknologi KA terus meningkat, dengan perkiraan mencapai lebih dari 300 miliar dolar AS pada tahun 2023\cite{300mn}. Perusahaan-perusahaan besar seperti Google, Amazon, dan Facebook ikut mengintegrasikan KA ke dalam produk dan layanan mereka untuk meningkatkan efisiensi dan pengalaman pengguna\cite{Kelleher2019-cj}. Selain itu, KA juga telah merambah ke berbagai sektor, termasuk kesehatan, keuangan, otomotif, dan manufaktur. Misalnya, dalam industri kesehatan, KA digunakan untuk menganalisis data medis dan membantu dalam diagnosis penyakit\cite{Early_Diagnosis_of_Alzheimer's_Disease}. Di sektor keuangan, KA digunakan untuk mengoptimalkan portofolio investasi dan mendeteksi keadaan obligasi dimasa depan. 
+
+Indonesia pun tidak ingin melewatkan kesempatan ini, melalui Badan Pengkajian dan Penerapan Teknologi (BPPT). Indonesia membentuk Strategi Nasional Kecerdasan Artifisial Indonesia 2020 - 2045 (STRANAS KA)\cite{Stranaska}. Pembentukan STRANAS KA ini merupakan perwujudan Visi Indonesia Emas 2045. Untuk itu pengembangan kecerdasan artifisial akan dikaji dan diteliti untuk mengembangkan sektor-sektor yang sedang diprioritaskan. Saat ini metode kecerdasan artifisial yang sedang ramai digunakan dan dikembangkan adalah Jaringan Syaraf Tiruan (JST).
+
+Jaringan syaraf tiruan menjadi sorotan utama dalam perkembangan kecerdasan artifisial. Model-model jaringan syaraf tiruan telah menjadi fondasi bagi berbagai aplikasi KA, seperti pengenalan wajah, penerjemah bahasa, dan \textit{driver assistance system}\cite{Auto_driving}. Keberhasilan jaringan syaraf tiruan dalam menangani tugas-tugas kompleks ini dapat dilihat dari peningkatan akurasi dan kecepatan dalam pengolahan data. Hal ini didukung dengan semakin berkembangnya teknologi yang membuat daya komputasi menjadi lebih baik dan meningkatnya penggunaan \textit{cloud} sehingga semakin memudahkan pengumpulan data dan mengurangi resiko kehilangan data. 
+
+Secara garis besar jaringan syaraf tiruan adalah model matematis yang terdiri dari serangkaian \textit{neuron} yang terhubung satu sama lain. Setiap lapisan dalam jaringan memiliki peran khusus dalam pengolahan informasi. Salah satunya adalah \textit{hidden layer} yang bertanggung jawab untuk mengekstraksi dan mempelajari fitur-fitur kompleks dari data. Jumlah dan konfigurasi \textit{hidden layer} akan mempengaruhi kemampuan jaringan dalam memahami dan memodelkan pola dalam data. Dengan konfigurasi \textit{hidden layer} yang tepat, jaringan syaraf tiruan dapat meningkatkan kinerja dan efisiensi dalam berbagai tugas klasifikasi maupun regresi.
+
+Salah satu permasalahan yang sering dihadapi dalam penggunaan jaringan syaraf tiruan adalah penentuan jumlah \textit{hidden layer} yang akan digunakan. Penentuan jumlah dan ukuran \textit{hidden layer} ini tidak selalu langsung dapat terlihat didalam data. Pemilihan jumlah dan ukurannya memerlukan pengaturan yang baik untuk mendapatkan hasil yang diinginkan. Secara umum jika jumlah \textit{hidden layer} terlalu sedikit, jaringan mungkin akan gagal mempelajari representasi yang cukup kompleks dari data, sementara jika terlalu banyak, dapat terjadi \textit{overfitting}, yaitu jaringan menjadi terlalu cocok dengan data yang dilatih dan kinerjanya akan menurun jika dipertemukan dengan data baru. Oleh karena itu, menemukan jumlah \textit{hidden layer} yang tepat merupakan tantangan  dalam merancang jaringan syaraf tiruan yang efektif. 
+
+Beberapa pendekatan, seperti penggunaan \textit{cross-validation} atau teknik optimasi seperti algoritma genetika, telah digunakan untuk membantu menentukan jumlah hidden layer yang optimal dalam suatu jaringan syaraf tiruan. Meskipun kecerdasan artifisial merupakan bidang penelitian yang masih berkembang, penelitian atas permasalahan ini diharapkan akan memperkuat kemampuan jaringan syaraf tiruan untuk menghadapi berbagai tugas pemodelan dan prediksi dengan lebih akurat dan efisien.
+
+
+\section{Rumusan Masalah}
+
+Penentuan jumlah dan ukuran \textit{hidden layer} pada suatu jaringan syaraf tiruan masih memerlukan \textit{tuning} agar mendapatkan hasil yang dinginkan. Namun efek pengurangan ataupun penambahan pada \textit{hidden layer} masih ambigu dan diperlukan penelitian lebih lanjut. Oleh karena itu, maka disusun rumusan masalah seperti berikut:
+
+\begin{enumerate}
+    \item Jumlah \textit{hidden layer} pada jaringan syaraf tiruan tidak memiliki jumlah yang pasti.
+    \item Belum ada informasi mengenai efek apa yang terjadi pada pengurangan dan penambahan \textit{hidden layer} pada jaringan syaraf tiruan.
+    \item Belum ada informasi mengenai perngaruh jumlah \textit{hidden layer} terhadap waktu komputasi dan akurasi.
+\end{enumerate}
+
+\section{Tujuan Penelitian}
+
+Penelitian ini bertujuan untuk menganalisis pengaruh jumlah \textit{hidden layer} dengan melakukan variasi terhadap jumlah \textit{hidden layer} sehingga akan terlihat efek yang diberikan.
+
+\section{Batasan Penelitian}
+
+Batasan permasalahan pada skripsi ini adalah pada data, arsitektur yang digunakan, dan variabel pengaruh yang dianalisis. Data yang digunakan adalah data yang \textit{linearly separable} artinya data dapat dipisahkan secara linier. Data memiliki 16 \textit{instance}, 2 fitur, dan tiga kelas. Kemudian batasan pada arsitektur yang digunakan. Arsitektur yang akan digunakan adalah arsitektur \textit{Multilayer Perceptron}. Pada penelitian ini tidak akan dibahas arsitektur lain seperti \textit{Convolutional Neural Network}, \textit{Reccurent Neural Network}, dll. Kemudian pengaruh yang dianalisis difokuskan pada waktu komputasi dan akurasinya.
+
+
+\section{Manfaat Penelitian}
+
+Manfaat dari penelitian ini adalah untuk mengetahui pengaruh jumlah dan ukuran \textit{hidden layer} terhadap akurasi dan waktu komputasi. Bagi akademisi dapat digunakan untuk memahami lebih lanjut mengenai jaringan syaraf tiruan dan membuka penelitian baru terkait jaringan syaraf tiruan. Bagi praktisi dapat digunakan sebagai pedoman untuk menentukan jumlah dan ukuran \textit{hidden layer} yang akan digunakan.
+
+
+\section{Sistematika Penulisan}
+
+
+\noindent \textbf{BAB I PENDAHULUAN}
+
+Pada ini dijelaskan latar belakang, rumusan masalah, batasan, tujuan, manfaat, dan sistematika penulisan.
+
+\noindent \textbf{BAB II : TINJAUAN PUSTAKA DAN LANDASAN TEORI}
+
+Pada bab ini dijelaskan teori dan penelitian yang digunakan sebagai acuan dalam penelitian.
+
+\noindent \textbf{BAB III : METODOLOGI PENELETIAN}
+
+Pada bab ini berisi tentang metodologi penelitian yang terdiri atas alat dan bahan, langkah kerja, dan alur tahapan penelitian.
+
+\noindent \textbf{BAB IV : ANALISIS DAN PEMBAHASAN}
+
+Pada bab ini dijelaskan hasil dari penelitian dan pembahasan pengujianya.
+
+\noindent \textbf{BAB V : KESIMPULAN DAN SARAN}
+
+Pada bab ini ditulis kesimpulan penelitian dan saran untuk penelitian selanjutnya.
