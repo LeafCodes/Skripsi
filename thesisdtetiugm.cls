@@ -87,6 +87,7 @@
 \usepackage{pgfplots}
 \usepackage{pgf-pie}
 \usepackage{float}
+\usepackage{bm}
 \usetikzlibrary{calc}
 \usetikzlibrary{positioning}
 \usetikzlibrary{arrows}
